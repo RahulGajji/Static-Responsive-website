@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+ 
   
 }
 
@@ -12,10 +13,11 @@ body {
   display: grid;
   grid-template-columns: 20% 78%;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   top: 0;
-
+  height: 13vh;
+  z-index: 1000;
 
 }
 
@@ -55,34 +57,55 @@ body {
 
   height: 22px;
   width: 22px;
+  
 }
 
-/*This is a carousel code*/
+/*This is a first carousel code*/
 
 
 .carousel-container {
 
  background-color: burlywood;
- height: 25vh;
- margin-top: 100px;
+ height: 28vh;
  margin-left: 10px;
  margin-right: 10px;
- border-radius: 15px;
+ 
 }
 
 
 .carousel-inner{
-  height: 25vh;
+  height: 28vh;
   border-radius: 15px;
 }
 
 .carousel-image {
-  height: 25vh;
+  height: 28vh;
   border-radius: 15px;
 
 }
 
 
+
+/*Swiggy section body*/
+
+.swiggy-page-section {
+
+  margin-top: 100px;
+  overflow: auto;
+  height: 1500px;
+  
+}
+
+
+
+/*second-caurosel section*/
+
+
+
+
+
+
+/*spotlight section*/
 
 
 
