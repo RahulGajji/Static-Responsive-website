@@ -1,12 +1,17 @@
 body {
   margin: 0;
+  height: 1500px;
 }
 
 /*navigation container*/
 
 .navigation-container {
-
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  z-index: 1000;
+  width:100vw;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -16,6 +21,24 @@ body {
 
 }
 
-.navbar {
-  background-color: white;
+
+ 
+.image-icon {
+
+  height: 20px;
+  width: 20px;
+}
+
+.nav-name:hover {
+
+  
+  color: rgb(228, 163, 50) !important;
+}
+
+
+/*mainsection starts here*/
+
+.main-section {
+
+  padding-top: 100px;
 }
