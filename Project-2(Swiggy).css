@@ -18,10 +18,12 @@ body {
 .navbar-icon {
  
   height: 50px;
-
+  padding-left: 40px;
 }
 
-
+.nav-container {
+  padding-right: 40px;
+}
  
 .image-icon {
 
@@ -40,5 +42,24 @@ body {
 
 .main-section {
 
-  padding-top: 100px;
+  padding-top: 60px;
+}
+
+
+
+/*carousel-contaier*/
+
+.carousel-conainer {
+
+ background-color: chocolate;
+ padding: 10px;
+
+}
+
+
+.carousel-image {
+
+ height: 30vh;
+ border-radius: 20px;
+
 }
