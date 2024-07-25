@@ -91,7 +91,7 @@
 <!---Carousel container-->
 
 
-<div class="carousel-conainer  col-12 col-sm-8 offset-sm-2 col-lg-8 offset-lg-2">
+<div class="carousel-container  col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2">
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -123,6 +123,61 @@
 
     </div>
   </div>
+
+
+
+</div>
+
+
+
+<!--Varities container-->
+
+<div class="varities-container col-12 col-sm-10 offset-sm-1 col-lg-10 offset-lg-1">
+
+<div class="varity-heading-button-container">
+
+    <div class="varities-heading-container">
+      <h1 class="varities-heading">What's in your mind?</h1>
+    </div>
+
+    <div class="varities-button-container">
+
+      <button class="left-button" onclick="leftscroll()">&#60</button>
+      <button class="right-button" onclick="rightscroll()">&#62</button>
+
+    </div>
+
+</div>
+ 
+
+ <div class="varities-section" id="varityslider">
+
+  <img class="varity-image" src="project2-images/variety-item-1.avif">
+  <img class="varity-image" src="project2-images/variety-item-2.avif">
+  <img class="varity-image" src="project2-images/variety-item-3.avif">
+  <img class="varity-image" src="project2-images/variety-item-4.avif">
+  <img class="varity-image" src="project2-images/variety-item-5.avif">
+  <img class="varity-image" src="project2-images/variety-item-6.avif">
+  <img class="varity-image" src="project2-images/variety-item-7.avif">
+  <img class="varity-image" src="project2-images/variety-item-8.avif">
+  <img class="varity-image" src="project2-images/variety-item-9.avif">
+  <img class="varity-image" src="project2-images/variety-item-10.avif">
+  <img class="varity-image" src="project2-images/variety-item-11.avif">
+  <img class="varity-image" src="project2-images/variety-item-12.avif">
+  <img class="varity-image" src="project2-images/variety-item-13.avif">
+  <img class="varity-image" src="project2-images/variety-item-14.avif">
+  <img class="varity-image" src="project2-images/variety-item-15.avif">
+  <img class="varity-image" src="project2-images/variety-item-16.avif">
+  <img class="varity-image" src="project2-images/variety-item-17.avif">
+  <img class="varity-image" src="project2-images/variety-item-18.avif">
+  <img class="varity-image" src="project2-images/variety-item-19.avif">
+  <img class="varity-image" src="project2-images/variety-item-20.avif">
+
+
+
+
+
+ </div>
 
 
 
@@ -203,5 +258,36 @@
 
 
   </div>
+
+<!--JAVASCRIPT-->
+
+<script>
+
+ function leftscroll() {
+
+  document.getElementById('varityslider').scrollBy({
+    left: -300,
+    behavior:"smooth"
+  });
+
+ }
+
+
+ 
+ function rightscroll() {
+
+document.getElementById('varityslider').scrollBy({
+  left: 300,
+  behavior:"smooth"
+});
+
+}
+
+
+
+
+
+
+</script>
 </body>
 </html>
