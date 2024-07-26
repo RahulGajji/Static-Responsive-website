@@ -132,7 +132,7 @@
 
 <!--Varities container-->
 
-<div class="varities-container col-12  col-lg-10 offset-lg-1 col-xl-12 ">
+<div class="varities-container col-12  col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 ">
 
 <div class="varity-heading-button-container">
 
@@ -186,7 +186,7 @@
 
 <!--spotlight container-->
 
-<div class="spotlight-container col-12 col-lg-10 offset-lg-1 col-xl-12">
+<div class="spotlight-container col-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
 
   <div class="varity-heading-button-container">
 
@@ -196,19 +196,19 @@
 
     <div class="varities-button-container">
 
-      <button class="left-button" onclick="leftscroll()">&#8592</button>
-      <button class="right-button" onclick="rightscroll()">&#8594</button>
+      <button class="left-button" onclick="leftscrollspotlight()"><span class="arrow-button">&#60</span></button>
+      <button class="right-button" onclick="rightscrollspotlight()"><span class="arrow-button">&#62</span></button>
 
     </div>
 
+   
+      
+    </div>
+
+    <div class="spotlight-slider-container" id="spotlightslider">
 
 
-
-
-
-
-
-</div>
+    </div>
 
 
 
@@ -286,34 +286,7 @@
   </div>
 
 <!--JAVASCRIPT-->
-
-<script>
-
- function leftscroll() {
-
-  document.getElementById('varityslider').scrollBy({
-    left: -300,
-    behavior:"smooth"
-  });
-
- }
-
-
- 
- function rightscroll() {
-
-document.getElementById('varityslider').scrollBy({
-  left: 300,
-  behavior:"smooth"
-});
-
-}
-
-
-
-
-
-
-</script>
+<script src="data.js" type="module"></script>
+<script src="swiggy.js"></script>
 </body>
 </html>

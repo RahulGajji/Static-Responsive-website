@@ -144,8 +144,102 @@ body {
 
 .spotlight-container {
 
- background-color: rgb(209, 117, 75);
- height: 40vh;
+
  margin-top:10px ;
+ padding-bottom: 10px;
+}
+
+.spotlight-slider-container {
+
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+ 
  
 }
+
+
+.restaurent-container{
+
+ 
+  border-radius: 10px;
+  margin: 10px;
+  padding-right: 10px;
+ 
+}
+
+
+.restaurent-container:hover {
+
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transform: scale(1.05);
+ 
+
+}
+
+
+.rest-image {
+
+  height: 170px;
+  width: 250px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 5px 5px 4px rgba(227,226,226,0.6);
+}
+
+ 
+.rest-discount {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 22px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.rating-icon {
+  height: 3vh;
+  border-radius: 50%;
+}
+
+.rating-timearrival-container {
+
+display: grid;
+grid-template-columns: 15% 15% 70%;
+
+}
+
+
+
+
+.rest-information {
+
+ padding: 10px;
+}
+
+
+.rest-name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.rest-varities {
+  margin: 0;
+  color: gray;
+}
+
+.arrivaltime-container {
+
+ color: rgb(74, 74, 74);
+ font-weight: 600;
+
+}
+.rest-location {
+
+  margin: 0; 
+  color: gray;
+}
+
