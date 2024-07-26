@@ -131,11 +131,21 @@ body {
 
 
 
-
-
 .right-button:focus , .right-button:active , .left-button:focus , .left-button:active{
 
   outline: none;
   border: none;
 
+}
+
+
+
+/*spotlight container*/
+
+.spotlight-container {
+
+ background-color: rgb(209, 117, 75);
+ height: 40vh;
+ margin-top:10px ;
+ 
 }
