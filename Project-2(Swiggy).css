@@ -12,6 +12,7 @@ body {
   z-index: 1000;
   width:100vw;
   background-color: rgb(255, 255, 255);
+
 }
 
 
@@ -35,14 +36,17 @@ body {
 
   
   color: rgb(228, 163, 50) !important;
+ 
 }
+
+
 
 
 /*mainsection starts here*/
 
 .main-section {
 
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 
@@ -75,7 +79,7 @@ body {
 /*varities container*/
 
 .varities-container{
-  
+  margin-top: 30px;
   width: 100%;
   
 }
@@ -145,7 +149,7 @@ body {
 .spotlight-container {
 
 
- margin-top:10px ;
+ margin-top:30px ;
  padding-bottom: 10px;
 }
 
@@ -243,3 +247,29 @@ grid-template-columns: 15% 15% 70%;
   color: gray;
 }
 
+/*top-restaurents-container*/
+
+
+
+.top-rest-image {
+  height: 170px;
+  width: 200px;
+ 
+}
+
+
+.online-restaurents-body-container {
+
+  background-color: rgb(170, 51, 226);
+  height: 40vh;
+  padding: 10px;
+  margin: 0;
+ 
+}
+
+.top-restaurent {
+
+  
+  padding: 0;
+  margin: 0;
+}
