@@ -195,7 +195,7 @@ dispHTML += `<div class="restaurent-container">
 
   </div> `
 
-  console.log(dispHTML)
+
   document.querySelector('.spotlight-slider-container').innerHTML = dispHTML;
 
 

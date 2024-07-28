@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 1500px;
+  
 }
 
 /*navigation container*/
@@ -272,9 +272,10 @@ grid-template-columns: 15% 15% 70%;
 
 .top-restaurent {
 
-  background-color: blanchedalmond;
+  
   padding: 10px;
   
 }
+
 
 
