@@ -13,6 +13,7 @@ body {
   width:100vw;
   background-color: rgb(255, 255, 255);
 
+
 }
 
 
@@ -26,11 +27,6 @@ body {
   padding-right: 40px;
 }
  
-.image-icon {
-
-  height: 20px;
-  width: 20px;
-}
 
 .nav-name:hover {
 
@@ -39,12 +35,25 @@ body {
  
 }
 
+.naveach-container {
+ 
+  display: grid;
+  grid-template-columns: 13% 87%;
+  
+}
+
+.naveach-container:hover {
+
+border: 2px solid rgb(228, 163, 50) ;
+
+}
+
 
 
 
 /*mainsection starts here*/
 
-.main-section {
+.home-container{
 
   padding-top: 70px;
 }
