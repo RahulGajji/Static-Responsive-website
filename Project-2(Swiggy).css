@@ -287,4 +287,20 @@ grid-template-columns: 15% 15% 70%;
 }
 
 
+/*corporate section*/
+
+.nav-corporate-block-1 {
+ 
+  background-color: rgb(223, 106, 38);
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.corporate-block-1-icon {
+  
+  background: transparent;
+  height: 50px;
+  
+   
+}
 
