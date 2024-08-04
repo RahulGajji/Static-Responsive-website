@@ -107,6 +107,10 @@ border: 2px solid rgb(228, 163, 50) ;
   height: 20vh;
 }
 
+.varity-image:hover {
+  cursor: pointer;
+}
+
 .varities-heading {
 
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -472,4 +476,53 @@ input {
 
 .signup-heading {
   color: #FE5005;
+}
+
+
+
+/*burger section starts from here*/
+
+.burger-container {
+  padding: 15px;
+}
+
+
+.burgerimage {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.rating-burger-container {
+  display: grid;
+  grid-template-columns: 10% 10% 40%;
+  
+}
+
+
+.home-nav-image-burger{
+
+  height: 6vh;
+  margin-bottom: 2px;
+
+}
+
+
+.home-bar-burger {
+  width: 100%;
+ 
+}
+
+.nav-burger-container {
+  height: 7vh;
+  background-color:#FE5005;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.burger-con:hover {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transform: scale(1.05);
 }
