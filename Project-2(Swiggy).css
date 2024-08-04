@@ -290,6 +290,14 @@ grid-template-columns: 15% 15% 70%;
   
 }
 
+.div-image:hover  {
+
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transform: scale(0.9);
+
+}
+
 
 /*corporate section*/
 
@@ -524,5 +532,10 @@ input {
 .burger-con:hover {
   cursor: pointer;
   transition: transform 0.5s ease;
-  transform: scale(1.05);
+  transform: scale(0.9);
 }
+
+
+/*pastry section starts from here*/
+
+
